@@ -1,11 +1,3 @@
-﻿# FitnessRepsCounter
-**FitnessRepsCounter**
-
-### Project Description
-This project is a simple application that uses computer vision to help you count pull-ups or push-ups repetitions. Just select a video of someone performing the exercises, click "Track Exercise," and the app will process the video to count and display the number of repetitions. It's a great tool for tracking your workout progress and staying motivated!
-
-### README
-
 # FitnessRepsCounter
 
 ## Project Overview
@@ -21,13 +13,13 @@ This project makes tracking your fitness progress easier and more fun. By automa
 
 ## How to Use
 1. **Install Dependencies**:
-   Make sure you have Python and the required libraries installed. You can install the necessary libraries using pip:
+   
    ```bash
-   pip install opencv-python mediapipe Pillow
+   pip install opencv-python==4.5.1 mediapipe==0.8.0 Pillow==8.2.0
    ```
 
 2. **Run the Application**:
-   Execute the main script to launch the application:
+   
    ```bash
    python src/main.py
    ```
@@ -39,6 +31,11 @@ This project makes tracking your fitness progress easier and more fun. By automa
 4. **Track Exercise**:
    - Click the "Track Exercise" button to start processing the video.
    - The application will process each frame to count and display the number of pull-up repetitions.
+
+## Example Output
+Here's an example of me performing the exercise, with the application counting my pull-up repetitions: 
+![Alt Text](results/output_video.gif)
+
 
 ## File Structure
 ```
@@ -54,20 +51,16 @@ FitnessRepsCounter/
 ├── src/
 │   └── main.py                  # Main application script
 │
-└── README.md                    # Project README file
+└── README.md                    
 ```
 
 ## Future Improvements
-- Add support for more exercises.
-- Enhance the accuracy of repetition counting.
-- Implement a graphical user interface (GUI) for a better user experience.
-
-## Contributions
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
+my future goal is to add the logic to count the reps for more exercises.
+Contributions are welcome! If you have any ideas or improvements, please create an issue or submit a pull request.
+-> For questions or feedback, feel free to reach out to zakariae.bahari@gmail.com
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
 
-FitnessRepsCounter helps you stay on track with your fitness goals by providing an easy and accurate way to count your exercise repetitions. Whether you're working on pull-ups or push-ups, this tool will keep you motivated and informed about your progress. Happy exercising!
+
