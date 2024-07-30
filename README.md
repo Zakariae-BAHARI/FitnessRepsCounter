@@ -59,8 +59,7 @@ my future goal is to add the logic to count the reps for more exercises.
 Contributions are welcome! If you have any ideas or improvements, please create an issue or submit a pull request.
 -> For questions or feedback, feel free to reach out to zakariae.bahari@gmail.com
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
 
 
 
